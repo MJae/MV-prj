@@ -1,6 +1,8 @@
 # Project Logs
 
 ### 2019 Aug 23
+* 19:09:33
+  Added CSS to main project page
 * 18:55:09
   More formatting tests for MD
 * 18:45:10
