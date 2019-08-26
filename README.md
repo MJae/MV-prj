@@ -1,5 +1,9 @@
 # Project Logs
 
+### 2019 Aug 26
+* 17:44
+  Started Rock, Paper, Scissors project
+  
 ### 2019 Aug 23
 * 19:09:33
   Added CSS to main project page
