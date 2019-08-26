@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Rock, Paper, Scissors</title>
+
+        <script>
+            function computerPlay() {
+                // Return a random integer between 1 and 3
+                let computerChoice = Math.random() * 3;
+                if (computerChoice >= 2) {
+                    return "rock";
+                } else if (computerChoice >= 1) {
+                    return "paper";
+                } else {
+                    return "scissors";
+                }
+            }
+
+            function playRound(playerSelection, computerSelection) {
+                playerSelection.toLowerCase();
+                let paper = "paper";
+                let rock = "rock";
+                let scissors = "scissors";
+
+                if (playerSelection == computerSelection) {
+                    return "It's a tie!"
+                }
+
+                if (playerSelection == rock && computerSelection == paper || playerSelection == paper && computerSelection == scissors || playerSelection == scissors && computerSelection == rock) {
+                    // Computer wins
+                    return "You Lose! " + computerSelection + " beats " + playerSelection
+                } else {
+                    // Player wins
+                    return "You Win! " + playerSelection + " beats " + computerSelection
+                }
+            }
+ 
+            const playerSelection = "rock";
+            const computerSelection = computerPlay();
+            // console.log("player: " + playerSelection);
+            // console.log("computer: " + computerSelection);
+            console.log(playRound(playerSelection, computerSelection));
+            
+        </script>
+    </head>
+
+    <body>
+
+    </body>
+</html>
