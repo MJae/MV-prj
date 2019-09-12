@@ -1,5 +1,8 @@
 # Project Logs
 
+### 2019 Sept 12
+* 19:17 Finished setting up git on new computer
+
 ### 2019 Aug 26
 * 17:44
   Started Rock, Paper, Scissors project
