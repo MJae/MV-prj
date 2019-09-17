@@ -1,6 +1,10 @@
 # Project Logs
 
-### 2019 Sept 12
+### 2019 Sep 17
+* Started with javascript-exercises
+* Testing for cloning
+
+### 2019 Sep 12
 * 19:17 Finished setting up git on new computer
 
 ### 2019 Aug 26
