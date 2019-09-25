@@ -5,7 +5,9 @@
     Completed #JavaScript30 Exercise #1: "Make a JavaScript Drum Kit in Vanilla JS!"
 * 18:15:22
     Added JS Drum Kit to index
-    
+* 18:16:xx
+    Started Rock, Paper, Scissors GUI version project
+
 ## 2019 Sep 24
 * 18:09:02
     Started with Exercise 1 in #JavaScript30
