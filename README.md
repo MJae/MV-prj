@@ -1,5 +1,17 @@
 # Project Logs
 
+## 2019 Sep 25
+* 18:09:35
+    Completed #JavaScript30 Exercise #1: "Make a JavaScript Drum Kit in Vanilla JS!"
+    
+## 2019 Sep 24
+* 18:09:02
+    Started with Exercise 1 in #JavaScript30
+* 18:30:14
+    Got stuck with audio.play()
+    Was using the wrong selector
+    Could now continue, but the connection has failed again
+
 ## 2019 Sep 20
 * 16:34:39
     Completed required problems in javascript-exercises
