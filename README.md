@@ -3,6 +3,8 @@
 ## 2019 Sep 25
 * 18:09:35
     Completed #JavaScript30 Exercise #1: "Make a JavaScript Drum Kit in Vanilla JS!"
+* 18:15:22
+    Added JS Drum Kit to index
     
 ## 2019 Sep 24
 * 18:09:02
