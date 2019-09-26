@@ -1,6 +1,6 @@
 html {
     font-size: 10px;
-    background: url(Amsterdam-Arena-Field.jpg);
+    background: url(images/Amsterdam-Arena-Field.jpg);
     background-attachment: fixed;
     background-size: cover;
 }
@@ -26,7 +26,8 @@ body, html {
     font-size: 1rem;
     padding: 1rem .5rem;
     transition: all 0.07s ease;
-    width: 10rem;
+    width: 15rem;
+    height: 18rem;
     text-align: center;
     color: white;
     background: rgba(0, 0, 0, 0.4);

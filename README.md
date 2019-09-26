@@ -1,5 +1,10 @@
 # Project Logs
 
+## 2019 Sep 26
+* 19:09:33
+    Found all images needed for new version of the Rock, Paper, Scissors game
+    Continuing with the code, refactoring IS needed
+    
 ## 2019 Sep 25
 * 18:09:35
     Completed #JavaScript30 Exercise #1: "Make a JavaScript Drum Kit in Vanilla JS!"
