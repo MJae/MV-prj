@@ -1,5 +1,10 @@
 # Project Logs
 
+## 2019 Sep 27
+* 18:10:06
+    Added one extra image for Rock, Paper Scissors
+    Completed new version of Rock, Paper, Scissors
+    
 ## 2019 Sep 26
 * 19:09:33
     Found all images needed for new version of the Rock, Paper, Scissors game
