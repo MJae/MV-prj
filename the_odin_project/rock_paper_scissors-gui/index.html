@@ -10,21 +10,49 @@
     </head>
 
     <body>
-        <div class="hands">
-            <div class="hand" id="rock">
-                <kbd>R</kbd>
-                <p class="label">rock</p>
-                <img src="images/rps-rock.png" alt="rock" height="100px" />
+        <div class="contents">
+            <div class="hands">
+                <div class="hand" id="rock">
+                    <kbd>R</kbd>
+                    <p class="handLabel">rock</p>
+                    <img src="images/rps-rock.png" alt="rock" height="100px" />
+                </div>
+                <div class="hand" id="paper">
+                    <kbd>P</kbd>
+                    <p class="handLabel">paper</p>
+                    <img src="images/rps-paper.png" alt="paper" height="100px" />
+                </div>
+                <div class="hand" id="scissors">
+                    <kbd>S</kbd>
+                    <p class="handLabel">scissors</p>
+                    <img src="images/rps-scissors.png" alt="scissors" height="100px" />
+                </div>
             </div>
-            <div class="hand" id="paper">
-                <kbd>P</kbd>
-                <p class="label">paper</p>
-                <img src="images/rps-paper.png" alt="paper" height="100px" />
+
+            <div class="spacer">
+                <p>&nbsp;</p>
             </div>
-            <div class="hand" id="scissors">
-                <kbd>S</kbd>
-                <p class="label">scissors</p>
-                <img src="images/rps-scissors.png" alt="scissors" height="100px" />
+
+            <div class="trackers">
+                    <div class="tracker">
+                        <p class="trackerLabel">Computer Hand</p>
+                        <img id="computerHand" src="images/rps-hands.png" alt="all hands" height="100px" />
+                    </div>
+                    <div class="tracker">
+                        <p class="trackerLabel">Winner</p>
+                        <p id="winnerName">&nbsp;</p>
+                    </div>
+            </div>
+
+            <div class="scores">
+                    <div class="score">
+                        <p class="scoreLabel">Computer</p>
+                        <p class="scoreNumbers" id="computerScore">0</p>
+                    </div>
+                    <div class="score">
+                        <p class="scoreLabel">Player</p>
+                        <p class="scoreNumbers" id="playerScore">0</p>
+                    </div>
             </div>
         </div>
 
