@@ -1,5 +1,10 @@
 # Project Logs
 
+# 2019 Sep 30
+* 18:57:33
+    Completed the Etch-a-Sketch project
+    Will not mark it as finished yet because of the optional item in the project desciption
+
 ## 2019 Sep 27
 * 18:10:06
     Added one extra image for Rock, Paper Scissors
