@@ -3,7 +3,9 @@
 # 2019 Oct 03
 * 17:24:53
     Completed optional section for Etch-a-Sketch project
-    
+* 17:28:02
+    Added Etch-a-Sketch project to main index
+
 # 2019 Sep 30
 * 18:57:33
     Completed the Etch-a-Sketch project
