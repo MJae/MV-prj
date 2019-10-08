@@ -1,5 +1,11 @@
 # Project Logs
 
+# 2019 Oct 08
+* 17:30:35
+    Completed solution for javascript-exercises/calculator
+* 17:51:48
+    Completed solution for javascript-exercises/palidromes
+
 # 2019 Oct 03
 * 17:24:53
     Completed optional section for Etch-a-Sketch project

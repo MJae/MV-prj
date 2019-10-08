@@ -117,8 +117,11 @@ function addDot(){
         let dotBGColor = "hsl(" + h + ", 100%, 50%)";
         this.style.backgroundColor = dotBGColor;
     } else if (currentBGColor == "rgb(0, 0, 0)") {
+        // Already black, do nothing
         console.log("already black");
     } else {
+        // This will max to black after 5 passes, instead of 10 as in the
+        // instructions since the initial value of lightness starts at 50%;
         let newBGColor = addTenBlack(currentBGColor);
         this.style.backgroundColor = newBGColor;
     }
