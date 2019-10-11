@@ -1,5 +1,18 @@
 # Project Logs
 
+# 2019 Oct 11
+* 16:50:41
+    Completed Caesar cipher exercise, with help from @timato in @TheOdinProject Discord
+* 17:09:52
+    Completed Fibonacci sequence exercise
+* 17:54:54
+    Started getTheTitles exercise
+
+# 2019 Oct 10
+* 17:56:42
+    Started with the caesar project
+    A bit stuck with error messages that don't make sense
+
 # 2019 Oct 08
 * 17:30:35
     Completed solution for javascript-exercises/calculator
