@@ -1,5 +1,10 @@
 # Project Logs
 
+# 2019 Oct 14
+* 18:59:06
+    Solved getTheTitles exercise
+    Started with findTheOldest earlier, but found that the problem has ambiguity, so I've posted about it on the TOP Discord. Waiting for clarification.
+
 # 2019 Oct 11
 * 16:50:41
     Completed Caesar cipher exercise, with help from @timato in @TheOdinProject Discord
