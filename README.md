@@ -1,5 +1,16 @@
 # Project Logs
 
+# 2019 Oct 17
+* 22:47:28
+    Started calculator project
+
+# 2019 Oct 15
+* 18:16:44
+    Solved findTheOldest
+    I tried to solve it with reduce(), but I couldn't get it to working. In the end, I had to let it go and just write regular JS. Took so littlt time, it didn't make sense. So, I'm sure this is really supposed to be a reduce() exercise than anything else.
+* 18:23:04
+    TOP Web Development 101, Fundamentals Part 5 is now complete. I'll spend some time on the websites mentioned in the "MORE practice section, but not too much. Probably just to check them out and maybe sign up. I know of HackerRank and I've used it for a bit before. I just need to remember my login.
+
 # 2019 Oct 14
 * 18:59:06
     Solved getTheTitles exercise

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Project: Calculator</title>        
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="toolbar">
+                <button type="button" id="clearButton">Clear</button>
+            </div>
+            <div class="calculatorMain">
+                <div class="calcDisplay">
+                    <p>0123456789</p>
+                </div>
+                <div class="calcNumPad">
+                    <!-- Begin number buttons -->
+                    <div class="numButtons">
+                            <div class="numButton" id="one">
+                                <kbd>1</kbd>
+                            </div>
+                            <div class="numButton" id="two">
+                                <kbd>2</kbd>
+                            </div>
+                            <div class="numButton" id="three">
+                                <kbd>3</kbd>
+                            </div>
+                            <div class="numButton" id="four">
+                                <kbd>4</kbd>
+                            </div>
+                            <div class="numButton" id="five">
+                                <kbd>5</kbd>
+                            </div>
+                            <div class="numButton" id="six">
+                                <kbd>6</kbd>
+                            </div>
+                            <div class="numButton" id="seven">
+                                <kbd>7</kbd>
+                            </div>
+                            <div class="numButton" id="eight">
+                                <kbd>8</kbd>
+                            </div>
+                            <div class="numButton" id="nine">
+                                <kbd>9</kbd>
+                            </div>
+                            <div class="numButton" id="zero">
+                                <kbd>0</kbd>
+                            </div>
+                    </div>
+                    <!-- End number buttons -->
+
+                    <!-- Begin operation buttons -->
+                    <div class="calcBasicOps">
+                        <div class="basicOpButton" id="plus">
+                            <kbd>+</kbd>
+                        </div>
+                        <div class="basicOpButton" id="minus">
+                            <kbd>-</kbd>
+                        </div>                        
+                        <div class="basicOpButton" id="times">
+                            <kbd>x</kbd>
+                        </div>
+                        <div class="basicOpButton" id="dividedBy">
+                            <kbd>/</kbd>
+                        </div>
+
+                        <div class="basicOpButton" id="equals">
+                            <kbd>=</kbd>
+                        </div>
+                    </div>
+                    <!-- End operation buttons -->
+
+                </div>
+                <!-- End class calcNumPad-->
+            </div>
+            <!-- End class calculatorMain -->
+        </div>
+        <!-- End class container -->
+
+        <script src="calculator.js"></script>
+    </body>
+</html>
