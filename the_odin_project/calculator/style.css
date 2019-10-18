@@ -36,6 +36,7 @@ kbd {
     display: block;
     min-height: 15vh;
     min-width: 40vw;
+    max-width: 40vw;
     border: .3rem solid gray;
     padding: 10px;
     font-size: 3rem;
@@ -62,7 +63,7 @@ kbd {
     text-align: center;
 }
 
-#zero {
+.zero {
     grid-column: 1 / span 3;
 }
 
