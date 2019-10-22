@@ -1,9 +1,11 @@
 const displayArea = document.getElementById("calcDisplay");
 
 let displayCleared = false;
-let operatorChosen = false;
-let currentNumber = 0, num1 = 0, num2 = 0;
-let chosenOp = "";
+let currentNumber = 0, userNumbers = [];
+let chosenOps = [];
+
+// Toggle to clear all data or just the current display
+let goodToClearAll = false;
 
 function add(a, b) {
     return a + b;
@@ -37,6 +39,12 @@ function clearDisplay() {
     displayArea.textContent = "0";
     displayCleared = true;
     currentNumber = 0;
+
+    if (goodToClearAll) {
+        userNumbers = [];
+        chosenOps = [];
+        goodToClearAll = false;
+    }
 }
 
 function populateDisplay() {
@@ -46,36 +54,32 @@ function populateDisplay() {
         displayArea.textContent = displayArea.textContent + this.id;
     }
     
-    currentNumber = Number(displayArea.textContent)
+    currentNumber = Number(displayArea.textContent);
     displayCleared = false;
 }
 
 function saveOperation() {
     currentOp = this.id;
-    
+    userNumbers.push(currentNumber);
+
+    // Calculate
     if (currentOp != "equals") {
-        chosenOp = currentOp;
-        operatorChosen = true;
-    }
-
-    // Store the number
-    if (operatorChosen) {
-        num2 = currentNumber;
-        clearDisplay()
-        operatorChosen = false;
-    } else {
-        num1  = currentNumber;
+        chosenOps.push(currentOp);
         clearDisplay();
-        operatorChosen = true;
-    }
+    } else {
+        // Will result in wrong calculations because of 0 start
+        // Not good for multiplication
+        let result = userNumbers.shift();
+        while (chosenOps.length > 0) {
+            let num = userNumbers.shift();
+            let opNow = chosenOps.shift();
+            result = operate(opNow, result, num);
+            console.log(result);
+        }
 
-    if (currentOp == "equals") {
-        let result = operate(chosenOp, num1, num2);
-        console.log(result);
-
-        /**
-         * Write to display here
-         **/
+        clearDisplay();
+        displayArea.textContent = result;
+        goodToClearAll = true;
     }
 }
 
