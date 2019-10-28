@@ -1,7 +1,7 @@
 # Project Logs
 
 # 2019 Oct 22
-& 22:27:41
+* 22:27:41
     Debugging the calculator project
 
 # 2019 Oct 17

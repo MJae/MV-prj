@@ -58,6 +58,23 @@ function populateDisplay() {
     displayCleared = false;
 }
 
+function roundResult(x){
+    /***
+     * Round the result for final display
+     * 
+     * The conditions are set so that it will only use x.toFixed() 
+     * if there are extras after the main integer. Currently, there is
+     * still a flaw present since it will still round to two decimal
+     * places even if the result only has one decimal place.
+     ***/
+    let xInt = Math.round(x);
+    if (x % xInt != 0) {
+        return x.toFixed(2);
+    } else {
+        return x;
+    }
+}
+
 function saveOperation() {
     currentOp = this.id;
     userNumbers.push(currentNumber);
@@ -74,11 +91,12 @@ function saveOperation() {
             let num = userNumbers.shift();
             let opNow = chosenOps.shift();
             result = operate(opNow, result, num);
-            console.log(result);
         }
 
+        let finalResult = roundResult(result);
+
         clearDisplay();
-        displayArea.textContent = result;
+        displayArea.textContent = finalResult;
         goodToClearAll = true;
     }
 }
